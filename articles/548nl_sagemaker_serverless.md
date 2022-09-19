@@ -518,8 +518,8 @@ functions:
           method: post
 ```
 
-
-
 ## 備考
+
+本記事のソースコードは[GitHub](https://github.com/horie-t/experiment/tree/master/sagemaker_serverless)にて公開しています。
 
 本記事は、[Amazon SageMaker Examples](https://github.com/aws/amazon-sagemaker-examples)にてライセンスされるコードを含んでいます。ライセンスについてはそちらを参照してください。
