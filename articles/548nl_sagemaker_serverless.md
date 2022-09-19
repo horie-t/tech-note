@@ -490,7 +490,8 @@ def translate(event, context):
     return response
 ```
 
-`serverless.yml`を以下のように編集します。。SageMakerのエンドポイントを呼び出せるようにroleを設定しています。
+`serverless.yml`を以下のように編集します。
+SageMakerのエンドポイントを呼び出せるようにroleを設定し、API呼び出しのタイムアウトを延長しています。`provider.region`はSageMakerのエンドポイントをデプロイしたリージョンに合わせます。
 
 ```yml:aws_lambda/serverless.yml
 service: aws-lambda
@@ -516,6 +517,27 @@ functions:
       - httpApi:
           path: /translate
           method: post
+    timeout: 29
+```
+
+AWS Lambdaをデプロイします。
+```bash
+$ serverless deploy
+
+Deploying aws-lambda to stage dev (us-west-2)
+
+✔ Service deployed to stack aws-lambda-dev (47s)
+
+endpoint: POST - https://XXXXXXXXXX.execute-api.us-west-2.amazonaws.com/translate
+functions:
+  translate: aws-lambda-dev-translate (424 B)
+```
+
+curlでAPIを呼び出してみます。URLはLambdaデプロイ時の実行結果の値に修正してください。
+
+```bash
+ curl -X POST -H "Content-Type: text/plain" -d 'Hello world!' https://XXXXXXXXXX.execute-api.us-west-2.amazonaws.com/translate
+"Hallo Welt!"
 ```
 
 ## 備考
