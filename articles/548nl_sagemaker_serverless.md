@@ -452,6 +452,74 @@ $ ./translate.py 'Hello world!'
 Hallo Welt!
 ```
 
+## エンドポイントをAWS Lambdaから呼び出すようにしてHTTP APIとして公開する。
+
+エンドポイントをAWS Lambdaから呼び出せるようにします。Lambdaの構築には、Serverless Frameworkを使用します。
+適当なディレクトリに移動して、Serverless Frameworkのプロジェクトを作成します。
+
+```bash
+mkdir aws_lambda
+cd !$
+serverless create --template aws-python3
+```
+
+`handler.py`をSlageMakerのエンドポイントを呼び出すように編集します。
+
+```python:aws_lambda/handler.py
+import json
+import boto3
+
+def translate(event, context):
+    runtime = boto3.client("sagemaker-runtime")
+
+    endpoint_name = "CTranslate2"
+    content_type = "text/plain"
+    original_text = event['body']
+
+    translate_response = runtime.invoke_endpoint(
+        EndpointName=endpoint_name,
+        ContentType=content_type,
+        Body=original_text
+    )
+    translated_text = translate_response['Body'].read().decode('utf-8')
+
+    response = {
+        "statusCode": 200,
+        "body": json.dumps(translated_text)
+    }
+    return response
+```
+
+`serverless.yml`を以下のように編集します。。SageMakerのエンドポイントを呼び出せるようにroleを設定しています。
+
+```yml:aws_lambda/serverless.yml
+service: aws-lambda
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: us-west-2
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "sagemaker:InvokeEndpoint"
+          Resource: "arn:aws:sagemaker:*:*:endpoint/ctranslate2"
+
+functions:
+  translate:
+    handler: handler.translate
+    events:
+      - httpApi:
+          path: /translate
+          method: post
+```
+
+
+
 ## 備考
 
 本記事は、[Amazon SageMaker Examples](https://github.com/aws/amazon-sagemaker-examples)にてライセンスされるコードを含んでいます。ライセンスについてはそちらを参照してください。
