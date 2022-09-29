@@ -2,7 +2,7 @@
 title: "SageMakerをローカルPCで利用する"
 emoji: "👌"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["機械学習"]
+topics: ["機械学習", "aws"]
 published: true
 ---
 
