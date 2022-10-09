@@ -6,7 +6,7 @@ topics: ["機械学習", "機械翻訳"]
 published: true
 ---
 
-本記事のコードは[GitHub](https://github.com/horie-t/experiment/tree/master/ctranslate2_docker)で公開しています。
+本記事のコードは[GitHub](https://github.com/horie-t/programming-study/tree/master/ctranslate2_docker)で公開しています。
 
 ## CTranslate2とは
 

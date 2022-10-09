@@ -542,6 +542,6 @@ curlでAPIを呼び出してみます。URLはLambdaデプロイ時の実行結�
 
 ## 備考
 
-本記事のソースコードは[GitHub](https://github.com/horie-t/experiment/tree/master/sagemaker_serverless)にて公開しています。
+本記事のソースコードは[GitHub](https://github.com/horie-t/programming-study/tree/master/aws_sagemaker/sagemaker_serverless)にて公開しています。
 
 本記事は、[Amazon SageMaker Examples](https://github.com/aws/amazon-sagemaker-examples)にてライセンスされるコードを含んでいます。ライセンスについてはそちらを参照してください。
