@@ -3,7 +3,7 @@ title: "Wio Terminalで測定した、CO2データ等をTimescaleDBにアップ�
 emoji: "🦁"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["postgesql", "grafana", "aws", "iot", "arduino", "wioterminal"]
-published: false
+published: true
 ---
 
 [TimescaleDB](https://www.timescale.com/)とは時系列データ(例えば、IoTデバイスの測定データ等)をPostgreSQL上で扱いやすくするためのPostgreSQL拡張です。
