@@ -24,7 +24,7 @@ published: true
 
 以下の図のように、CO2センサとLCDディスプレイを接続します。
 
-<img src='https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiRoomCondition_Breadboard.png' width='320px' >
+![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiRoomCondition_Breadboard.png)
 
 ## Raspberry Piの設定変更
 
@@ -36,14 +36,13 @@ Raspberry PiにSSHでログインして以下のコマンドを実行します�
 sudo raspi-config
 ```
 
-<img src='https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfig.png' width='480px' >
+![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfig.png]
 
 
 `Interface Options`を選択します。
 
-<img src='https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfigInterface.png' width='480px' >
+![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfigInterface.png')
 
-![](https://storage.googleapis.com/zenn-user-upload/a59ec5ca59fb-20221207.png)
 
 `SPI`と`I2C`を選択し、enabled?の問合せに`Yes`を選択します。
 
@@ -264,7 +263,7 @@ pi@raspberrypi:~ $ ./measure_room_condition.py
 
 測定の様子は以下のようになります。
 
-<img src='https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiRoomCondition.jpg' width='640px' >
+![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiRoomCondition.jpg)
 
 ## 自動起動設定
 
