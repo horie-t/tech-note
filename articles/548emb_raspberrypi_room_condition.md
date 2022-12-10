@@ -36,12 +36,12 @@ Raspberry PiにSSHでログインして以下のコマンドを実行します�
 sudo raspi-config
 ```
 
-![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfig.png]
+![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfig.png)
 
 
 `Interface Options`を選択します。
 
-![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfigInterface.png')
+![](https://raw.githubusercontent.com/horie-t/tech-note/master/images/RaspberryPiConfigInterface.png)
 
 
 `SPI`と`I2C`を選択し、enabled?の問合せに`Yes`を選択します。
