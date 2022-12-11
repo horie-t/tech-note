@@ -2,7 +2,7 @@
 title: "WhisperをSageMaker Asynchronous Inferenceで利用する"
 emoji: "👻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["機械学習", "音声認識"]
+topics: ["機械学習", "音声認識", "sagemaker", "whisper"]
 published: true
 ---
 

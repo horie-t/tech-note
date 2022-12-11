@@ -2,7 +2,7 @@
 title: "Amazone SageMakerでサーバレスな機械翻訳サービスを構築する"
 emoji: "🐥"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["機械学習", "機械翻訳", "aws"]
+topics: ["機械学習", "機械翻訳", "aws", "sagemaker"]
 published: true
 ---
 
