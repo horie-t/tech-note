@@ -3,7 +3,7 @@ title: "Raspberry Piで測定したCO2濃度をAWS IoT Core経由でTimestream�
 emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["iot", "raspberrypi", "awsiotcore", "timestream", "grafana"]
-published: false
+published: true
 ---
 
 [前回](https://zenn.dev/thorie/articles/548emb_raspberrypi_room_condition)、Raspberry Pi Zero WHにCO2センサとLCDディスプレイを繋いで、室内のCO2濃度、温度、湿度を測定して表示しました。
