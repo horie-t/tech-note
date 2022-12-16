@@ -424,3 +424,74 @@ AWSコンソールのTimesteamの画面で、以下のようにテーブルに�
    ORDER BY binned_time DESC
    ```
    ![](https://github.com/horie-t/tech-note/blob/master/images/Timestream_Query.png?raw=true)
+
+## Grafana Cloudで可視化
+
+Amazon Timestreamにデータを保存できたので、Grafana Cloudで測定データを可視化します。
+
+### アカウントの作成
+
+[Grafana](https://grafana.com/)のサイトで`free acount`でアカウントを作成します。
+
+### Timestreamへの接続先の調査
+
+以下のコマンドを実行して、Timestreamの接続エンドポイントを調べます。リージョンは、適宜変更します。
+
+```bash
+aws timestream-query describe-endpoints --region us-west-2 | jq -r '.Endpoints[].Address'
+```
+
+### Timestream用プラグインのインストール
+
+Timestream用プラグインを、以下の手順にてインストールします。
+
+1. ダッシュボード画面を表示します。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_Dashboard.png?raw=true)
+2. 画面の左下の、`Configration` - `Plugins` を選択します。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_AddPlugin.png?raw=true)
+3. `Configuration`画面の検索ボックスで`amazon timestream`を入力し、検索結果のAmazon Timestreamをクリックします。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_Plugin.png?raw=true)
+4. `Install via grafana.com`をクリックします。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_TimestreamPlugin.png?raw=true)
+5. 別タブで`Install plugin`をクリックします。
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_InstallTimestreamPlugin.png?raw=true)
+
+### Timestreamへの接続
+
+Timestreamのプラグインが使えるようになったので、以下の手順にてTimestreamに接続する設定をします。
+
+1. 元の画面に戻って、画面の左下の、`Configration` - `Data sources` を選択します。
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_AddDataSource.png?raw=true)
+2. `Configuration`画面で`Add data source`をクリックします。
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_DataSources.png?raw=true)
+3. `Add data source`画面の検索ボックスで`amazon timestream`を入力し、検索結果のAmazon Timestreamをクリックします。
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_TimestreamDataSource.png?raw=true)
+4. `Data Sources`画面で必要事項を入力します。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_AddTimestream.png?raw=true)  
+   **Authentication Provider** は、**Access & secret key** を選択し、以下のように設定し、**Save & Test**をクリックします。
+   | 項目 |   値  |
+   | ---- | :---: |
+   |Authentication Provider | Access & secret key |
+   | Access Key ID | IAMユーザーのアクセスキーID |
+   | Secret Access Key | IAMユーザーのシークレットアクセスキー |
+   | Assume Role ARN | 空欄のまま |
+   | External ID | 空欄のまま |
+   | Endpoint | AWS CLIで調べたqueryエンドポイント |
+   | Default Region | us-west-2 |
+
+### ダッシュボードの作成
+
+Timesteamにアクセスできるようになったので、以下の手順にて、ダッシュボードを作成して測定結果を表示するパネルを追加します。
+
+1. `Dashboards` - `+ New dashboard`をクリックします。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_NewDashboard.png?raw=true)
+2. `Add a new panel`をクリックします。
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_AddPanel.png?raw=true)
+3. `Edit Panel`画面の下部で`Database`は`RoomCondition`を選択し、`Table`は`conditions`を選択し、`Measure`は`co2`を選択します。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_QueryPanel.png?raw=true)  
+   クエリ入力部に以下を入力し、右上の`Apply`をクリックします。  
+   ```sql
+   SELECT time, measure_name, measure_value::double as co2 FROM "RoomCondition"."conditions" WHERE measure_name = 'co2' ORDER BY time
+   ```
+4. 同様に,、温度、湿度もパネルに追加すると以下のようになります。  
+   ![](https://github.com/horie-t/tech-note/blob/master/images/Grafana_RoomConditionPanel.png?raw=true)
