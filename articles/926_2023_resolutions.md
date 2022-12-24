@@ -3,7 +3,7 @@ title: "2023年の抱負"
 emoji: "🐰"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["目標"]
-published: false
+published: true
 ---
 
 [2022年の振り返り](./926_2022_retrospective.md)をしてみた所、色々な事をやっていたので1年間を無為に過ごしてしまったと後悔する事はなかった。
