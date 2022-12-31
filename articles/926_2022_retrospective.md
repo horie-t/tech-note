@@ -42,7 +42,7 @@ published: true
 
 ## 読書
 
-近年は本を読まなくなっていたけど、今年は例年以上に本を読んでいたと思う。今年読んだ本の中で一番良かったのは[みんなの量子コンピュータ](https://amzn.to/3iSf9pl)だった。
+近年は本を読まなくなっていたけど、今年は例年以上に本を読んでいたと思う。今年読んだ本の中で良かったのは[みんなの量子コンピュータ](https://amzn.to/3iSf9pl)と[本質から理解する 数学的手法](https://amzn.to/3W8gLcI)だった。
 
 ### コンピュータ技術書
 
@@ -58,7 +58,7 @@ published: true
 
 ### 科学系
 
-* [本質から理解する 数学的手法](https://amzn.to/3W8gLcI)(現在、読書中)
+* [本質から理解する 数学的手法](https://amzn.to/3W8gLcI)
 * [時間は存在しない](https://amzn.to/3HoqTtI)
 * [神の方程式: 「万物の理論」を求めて](https://amzn.to/3Yf2WuQ)
 * [「ネコひねり問題」を超一流の科学者たちが全力で考えてみた](https://amzn.to/3FkRFkl)
@@ -68,8 +68,10 @@ published: true
 * [リーン・スタートアップ　ムダのない起業プロセスでイノベーションを生みだす](https://amzn.to/3Wayel3)
 * [アジャイルサムライ――達人開発者への道](https://amzn.to/3hcyH7p)
 * [チームトポロジー　価値あるソフトウェアをすばやく届ける適応型組織設計](https://amzn.to/3UH7ZRP)
+* [ジョブ理論　イノベーションを予測可能にする消費のメカニズム](https://amzn.to/3G4AYtO)
 * [保健所のコロナ戦記](https://amzn.to/3HmNwyH)
 * [GE帝国盛衰史――「最強企業」だった組織はどこで間違えたのか](https://amzn.to/3Y5EDQd)
+* [限りある時間の使い方](https://amzn.to/3Ce82OD)
 
 ### 小説
 
