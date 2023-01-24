@@ -18,7 +18,7 @@ Wio Terminalに秋月電子のBNO055使用9軸センサーフュージョンモ�
 
 ## 接続図
 
-![Breadboad](./images/../../images/WioTerminal_BNO055.png)
+![Breadboad](https://github.com/horie-t/tech-note/blob/master/images/WioTerminal_BNO055.png?raw=true)
 
 秋月電子のキットはSCL/SDAはプルアップが必要なのですが、RustでWio Terminal側のSCL/SDA用のピンをプルアップし、かつI2Cバスに設定する方法が分からなかったので、物理的に抵抗を追加しています。(Arduinoで開発する場合は不要です。また、[Adafruit BNO055搭載 9DoF 方位/慣性計測モジュール](https://www.switch-science.com/products/5511)にはモジュール側にチップ抵抗があるようなので抵抗の追加は不要だと思われます)
 
