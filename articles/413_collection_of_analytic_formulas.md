@@ -12,7 +12,7 @@ published: false
 
 #### eの極限
 
-**極限の定義式:** $\lim_{h \rightarrow 0} \frac{ e^{h} - 1 }{h}  = 1$
+極限の定義式: $\lim_{h \rightarrow 0} \frac{ e^{h} - 1 }{h}  = 1$
 
 $\lim_{x \rightarrow  \pm  \infty} (1 + \frac{1}{x})^x = e$ 
 
