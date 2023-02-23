@@ -3,7 +3,7 @@ title: "赛昉科技(StarFive)社製VisionFive2のセットアップ"
 emoji: "💨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["riscv", "visionfive2"]
-published: false
+published: true
 ---
 
 本記事は赛昉科技(StarFive)社製の[VisionFive2](https://amzn.to/3Ihqnhb)をセットアップしたメモです。
