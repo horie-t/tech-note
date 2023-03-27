@@ -26,7 +26,7 @@ ChatGPTがプログラミングに使えると知りどこまでできるのか�
 * [LeanとDevOpsの科学［Accelerate］ テクノロジーの戦略的活用が組織変革を加速する](https://amzn.to/3z5sSht)
 * [Spring 解体新書（第2版](https://amzn.to/3KawPaE), [Spring Data JPAプログラミング入門](https://amzn.to/3FR0QKa)
 * [APIデザイン・パターン](https://amzn.to/3lD7ayf): 23章まで
-* [ユーザーストーリーマッピング](https://amzn.to/3ncrsig): 14章まで
+* [ユーザーストーリーマッピング](https://amzn.to/3ncrsig)
 * [マイクロサービスアーキテクチャ 第2版](https://amzn.to/3nqf5iD)
 * [Kafka](https://amzn.to/3np95GU): 4章まで
 
