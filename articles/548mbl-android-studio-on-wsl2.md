@@ -3,7 +3,7 @@ title: "WSL2上でAndroid StudioでAndroidアプリケーションを、usbipd-w
 emoji: "😎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["android"]
-published: false
+published: true
 ---
 
 WSLにWindows Subsystem for Linux GUI(WSLg)の仕組みが追加されてから、WSL上でIDE等のGUIアプリケーションを動かしやすくなりました。
