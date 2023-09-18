@@ -25,6 +25,12 @@ sudo apt install linux-tools-virtual hwdata
 sudo update-alternatives --install /usr/local/bin/usbip usbip `ls /usr/lib/linux-tools/*/usbip | tail -n1` 20
 ```
 
+以下はOS起動後に毎回必要そう。
+
+```bash
+sudo update-alternatives --install /usr/local/bin/usbip usbip `ls /usr/lib/linux-tools/*/usbip | tail -n1` 20
+```
+
 ## Android Studioのインストール・セットアップ
 
 Android Studioの[ダウンロードサイト](https://developer.android.com/studio)からアプリケーションをダウンロードし、インストール先ディレクトリで以下の例のように展開する。
