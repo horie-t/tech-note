@@ -19,7 +19,7 @@ published: false
 
 * [資本主義の次に来る世界](https://amzn.asia/d/3fe39WC)
 * [大学の微分積分](https://amzn.asia/d/0i3P6OR) (第3章まで)
-* [複素関数論の基礎](https://amzn.asia/d/6Yh4C33) (第1章まで)
+* [複素関数論の基礎](https://amzn.asia/d/6Yh4C33) (第2章まで)
 
 ### 小説
 
