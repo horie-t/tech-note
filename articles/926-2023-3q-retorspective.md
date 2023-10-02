@@ -3,7 +3,7 @@ title: "2023年7月から9月の振り返り"
 emoji: "🦁"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["振り返り", "ポエム"]
-published: false
+published: true
 ---
 
 2023年も9ヶ月が過ぎたので、ここで振り返ってみる。6月に[振り返り](./926-2023-2q-retorspective)をしたので、今回は7月から9月の間を振り返ってみる。
