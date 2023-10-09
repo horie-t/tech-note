@@ -15,7 +15,9 @@ published: false
 
 ### 専門書
 
-* [大学の微分積分](https://amzn.asia/d/0i3P6OR) (第4, 5, 6章。読了)
+* [大学の微分積分](https://amzn.to/3RRmpBi) (第4, 5, 6章。読了)
+* [大学の線形代数](https://amzn.to/3rzQV88) (第1章)
+* [複素関数論の基礎](https://amzn.to/45nAwBo) (第3章)
 
 ### 小説
 
