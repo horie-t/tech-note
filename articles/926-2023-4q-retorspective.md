@@ -17,7 +17,6 @@ published: false
 * [大規模言語モデルは新たな知能か　ＣｈａｔＧＰＴが変えた世界](https://amzn.to/47IffV8) (読了)
 * [ChatGPTの頭の中](https://amzn.to/3R6flif) (第1部 埋め込みの概念)
 
-
 ### 専門書
 
 * [大学の微分積分](https://amzn.to/3RRmpBi) (第4, 5, 6章。読了)
@@ -25,6 +24,7 @@ published: false
 * [複素関数論の基礎](https://amzn.to/45nAwBo) (第3章)
 * [物理学レクチャーコース 力学](https://amzn.to/3R7BfkV) (第1章)
 * [21世紀の資本](https://amzn.to/3NceCed)
+* [雑に作る ―電子工作で好きなものを作る近道集](https://amzn.to/3MwyRml) (読了)
 
 ### 小説
 
