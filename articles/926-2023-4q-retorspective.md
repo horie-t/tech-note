@@ -12,10 +12,10 @@ published: false
 
 ### コンピュータ技術書
 
-* [競技プログラミングの鉄則](https://amzn.to/3Na5IOg) (第1, 2, 3章)
+* [競技プログラミングの鉄則](https://amzn.to/3Na5IOg) (第1, 2, 3, 4章)
 * [プロダクトマネジメント ―ビルドトラップを避け顧客に価値を届ける](https://amzn.to/3t07tqi) (第1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14章)
 * [大規模言語モデルは新たな知能か　ＣｈａｔＧＰＴが変えた世界](https://amzn.to/47IffV8) (読了)
-* [ChatGPTの頭の中](https://amzn.to/3R6flif) (第1部 埋め込みの概念)
+* [ChatGPTの頭の中](https://amzn.to/3R6flif) (読了)
 
 ### 専門書
 
