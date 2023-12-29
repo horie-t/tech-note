@@ -23,7 +23,7 @@ published: false
 * [大学の線形代数](https://amzn.to/3rzQV88) (第1, 2, 3, 4, 5, 6章)
 * [複素関数論の基礎](https://amzn.to/45nAwBo) (第3章)
 * [物理学レクチャーコース 力学](https://amzn.to/3R7BfkV) (第1章)
-* [21世紀の資本](https://amzn.to/3NceCed)
+* [21世紀の資本](https://amzn.to/3NceCed) (第1, 2, 3, 4, 5章)
 * [雑に作る ―電子工作で好きなものを作る近道集](https://amzn.to/3MwyRml) (読了)
 
 ### 小説
