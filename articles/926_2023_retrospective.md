@@ -76,7 +76,7 @@ published: true
 * [物理学レクチャーコース 力学](https://amzn.to/3R7BfkV) (第1章)
 * [21世紀の資本](https://amzn.to/3NceCed) (第1, 2, 3, 4, 5章)
 * [雑に作る ―電子工作で好きなものを作る近道集](https://amzn.to/3MwyRml) (読了)
-* [言語の本質　ことばはどう生まれ、進化したか](https://amzn.to/41Jhq8o) (第1, 2, 3, 4, 5章)
+* [言語の本質　ことばはどう生まれ、進化したか](https://amzn.to/41Jhq8o) (読了)
 
 ### 小説等
 
