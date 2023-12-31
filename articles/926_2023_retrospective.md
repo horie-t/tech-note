@@ -91,7 +91,7 @@ published: true
 * [雑に作る ―電子工作で好きなものを作る近道集](https://amzn.to/3MwyRml) (読了)
 * [言語の本質　ことばはどう生まれ、進化したか](https://amzn.to/41Jhq8o) (読了)
 
-### 小説等
+### 小説等の一般書
 
 * [ビアス作品集](https://amzn.to/3NGfGWY)
 * [ＡＩとＳＦ](https://amzn.to/3CZXpyY): 『準備がいつまで経っても終わらない件』が面白い
@@ -100,5 +100,3 @@ published: true
 * [紙の動物園](https://amzn.to/3LRbcwG)
 * [折りたたみ北京 現代中国SFアンソロジー](https://amzn.to/3t3fbAc)
 * [さみしい夜にはペンを持て](https://amzn.to/47fCpkt)
-
-### 読みたい本
