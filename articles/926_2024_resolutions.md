@@ -3,7 +3,7 @@ title: "2024年の抱負"
 emoji: "😎"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["目標", "ポエム"]
-published: false
+published: true
 ---
 
 [2023年の振り返り](./926_2023_retrospective)をしてみて、目標を持つなら3つぐらいにしておかないとどれも中途半端に終わる事がわかった。今年は3つに絞って活動していこうと思う。[去年も書いた](./926_2023_resolutions#長期的な理想像)けど、
