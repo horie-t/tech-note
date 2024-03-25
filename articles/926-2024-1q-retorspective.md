@@ -25,7 +25,7 @@ published: false
 
 ### コンピュータ技術書
 
-* [競技プログラミングの鉄則](https://amzn.to/3Na5IOg) (第6, 7章)
+* [競技プログラミングの鉄則](https://amzn.to/3Na5IOg) (第6, 7, 8章)
 * [Vision Transformer入門 Computer Vision Library](https://amzn.to/4bkzFFH) (読了)
 * [SCRUMMASTER THE BOOK 優れたスクラムマスターになるための極意――メタスキル、学習、心理、リーダーシップ](https://amzn.to/3umqX9o) (読了)
 
