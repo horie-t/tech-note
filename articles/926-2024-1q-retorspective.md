@@ -15,7 +15,7 @@ published: false
     [tarf](https://github.com/horie-t/tarf)のクレートのアップデート。アップデートするとすぐに色々なものが動かなくなる。組込みのデバッグは大変。version 1.0未満だから仕方がないのだが…
     [TiDB Serverless](https://www.pingcap.com/tidb-serverless/)を使ってDORA Four Key metoricsの測定システムの構築。
 * **2月:** 
-* **3月:** 
+* **3月:** アジャイル関連の本の読書
 
 ## 勉強したプログラミング言語・ライブラリ等
 
@@ -28,6 +28,12 @@ published: false
 * [競技プログラミングの鉄則](https://amzn.to/3Na5IOg) (第6, 7, 8章)
 * [Vision Transformer入門 Computer Vision Library](https://amzn.to/4bkzFFH) (読了)
 * [SCRUMMASTER THE BOOK 優れたスクラムマスターになるための極意――メタスキル、学習、心理、リーダーシップ](https://amzn.to/3umqX9o) (読了)
+* [エンジニアリングマネージャーのしごと ―チームが必要とするマネージャーになる方法](https://amzn.to/3IRYHPB)
+* [大規模スクラム Large-Scale Scrum(LeSS)](https://amzn.to/4crFu4T)
+* [アジャイルに困った時に読む本](https://amzn.to/3voA1eu)
+* [アジャイルプラクティスガイドブック](https://amzn.to/3TZVh3P)
+* [初めてのGraphQL ―Webサービスを作って学ぶ新世代API](https://amzn.to/3vAqe4V) (読了)
+* [WebSocket](https://amzn.to/43v7d0u) (読了)
 
 ### 数学・科学系専門書
 
