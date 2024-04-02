@@ -3,11 +3,10 @@ title: "2024年3月の振り返り"
 emoji: "🦁"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["振り返り", "ポエム"]
-published: false
+published: true
 ---
 
 2024年も3ヶ月が過ぎたので、ここで振り返ってみる。
-
 
 ## 主にやっていた事
 
@@ -41,7 +40,7 @@ published: false
 
 ### その他専門書
 
-* [現代思想入門](第1, 2, 3, 4, 5, 6章)
+* [現代思想入門](https://amzn.to/3PHCXtl) (第1, 2, 3, 4, 5, 6章)
 
 ### 小説等の一般書
 
