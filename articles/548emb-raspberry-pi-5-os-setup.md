@@ -3,7 +3,7 @@ title: "Raspberry Pi 5をヘッドレスでセットアップ"
 emoji: "🌟"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["raspberrypi"]
-published: false
+published: true
 ---
 ## 使用ハードウェア
 
