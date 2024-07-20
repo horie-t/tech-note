@@ -1,22 +1,34 @@
 ---
-title: "Raspberry Pi OS(Raspberry Pi 5)にROS2(Jazzy Jalisco:「Testing and Tutorial Party」版)をインストールする"
-emoji: "😸"
+title: "Raspberry Pi OS(Raspberry Pi 5)にROS2(Jazzy Jalisco)をインストールする"
+emoji: "💨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ros", "ros2", "raspberrypi"]
 published: true
 ---
 
-この記事は「Testing and Tutorial Party」版のものです。正式版は[こちら](./548emb-install-ros2-offical-ver-on-raspberry-pi-os)を参照してください。
-
 ## なぜ、UbuntuではなくRaspberry Pi OS?
 
-ROS2がTier 1サポートとしているLinuxディストリビューションはUbuntuです。Rasperry Pi OSは、DebianベースなのでTier 3に該当します。
-よって、ROS2を動かすにはRaspberry Pi 5の場合はUbuntu 24.04を使った方が良いのですが、デバイス・ドライバ周りで大変になりそうな予感がします。ですので、Raspberry Pi OSにインストールする事にしました。
+ROS2がTier 1サポートとしているLinuxディストリビューションはUbuntuです。Rasperry Pi OSは、DebianベースなのでTier 3に該当します。このため、ROS2を動かすにはRaspberry Pi 5の場合はUbuntu 24.04を使った方が良いです。
+しかし、UbuntuのRaspberry Piの周辺機器のデバイス・ドライバの充実度は低い状態です。例えば、2024年7月現在ではRaspberry Pi 5で[Raspberry Pi用のカメラは動きません](https://pc.watch.impress.co.jp/docs/column/ubuntu/1594245.html)。
 
-## なぜ、Jazzy Jalisco?
+## 前準備
 
-これを書いている2024年5月4日現在はJazzy Jaliscoはリリースされていません。(5月23日リリース予定)
-しかし、Raspberry Pi 5にインストールできるRaspberry Pi OSはDebian 12(Bookworm)がベースになっています。このBookwormをサポートするROS2はJazzy Jaliscoです。ちょうど5月1日から[Jazzy Jalisco Testing and Tutorial Party](https://discourse.ros.org/t/save-the-date-jazzy-jalisco-testing-and-tutorial-party-2024-05-01/37155)が実施されるので、[チュートリアル](https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Development-Setup.html)にしたがってインストールする事にしました。
+Raspberry Pi 5の4GBモデルでは、ビルド中にSwap領域が足りなくなりOSがフリーズしてしまうので、Swap領域を大きくします。
+`/etc/dphys-swapfile`を編集します。
+
+```
+sudo vi /etc/dphys-swapfile
+```
+
+以下のようにサイズを変更
+```
+CONF_SWAPSIZE=1024
+```
+
+Swap領域を拡大します。
+```
+sudo /etc/init.d/dphys-swapfile restart
+```
 
 ## ソースからのインストール手順
 
@@ -80,19 +92,24 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 ```
 リポジトリを追加します。
 ```
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2-testing/ubuntu $(. /etc/os-release && echo $VERSION_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $VERSION_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 #### 開発ツールをインストール
 以下のようにコマンドを実行してパッケージをインストールします。
 ```
 sudo apt update && sudo apt install -y \
-  python3-pip \
-  python3-pytest-cov \
   python3-flake8-blind-except \
   python3-flake8-class-newline \
   python3-flake8-deprecated \
+  python3-mypy \
+  python3-pip \
+  python3-pytest \
+  python3-pytest-cov \
+  python3-pytest-mock \
   python3-pytest-repeat \
   python3-pytest-rerunfailures \
+  python3-pytest-runner \
+  python3-pytest-timeout \
   ros-dev-tools
 ```
 
