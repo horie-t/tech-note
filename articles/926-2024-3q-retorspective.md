@@ -34,5 +34,5 @@ published: false
 
 ### 小説等の一般書
 
-* [春期限定いちごタルト事件](https://amzn.to/3VDzoXk) (途中まで)
-* [ようこそヒュナム洞書店へ](https://amzn.to/3xF6aPQ) (途中まで)
+* [ようこそヒュナム洞書店へ](https://amzn.to/3xF6aPQ) (読了)
+* [創られた心　ＡＩロボットＳＦ傑作選](https://amzn.to/3XaDyGV) (途中まで)
