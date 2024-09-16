@@ -10,7 +10,7 @@ published: false
 ## 主にやっていた事
 
 * **7月:** [OmniMouse](https://github.com/horie-t/omni-mouse)の開発
-* **8月:** 
+* **8月:** [OmniMouse](https://github.com/horie-t/omni-mouse)の開発
 * **9月:** 
 
 ## 勉強したプログラミング言語・ライブラリ等
@@ -22,7 +22,7 @@ published: false
 
 ### コンピュータ技術書
 
-* [手を動かしてわかるクリーンアーキテクチャ](https://amzn.to/47c2vXb) (開始)
+* [手を動かしてわかるクリーンアーキテクチャ](https://amzn.to/47c2vXb) (読了)
 * [脳に収まるコードの書き方](https://amzn.to/4cPSxN6): (第1, 2, 3, 4, 5, 6章)
 * [ＲＯＳ２とＰｙｔｈｏｎで作って学ぶＡＩロボット入門 ](https://amzn.to/44rlUC1): (第3章)
 * [なぜ依存を注入するのか　DIの原理・原則とパターン](https://amzn.to/3VAK2y7) (第2-章)
