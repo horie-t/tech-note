@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi OS(Raspberry Pi 5)にROS2(Jazzy Jalisco:「Testing and Tutorial Party」版)をインストールする"
+title: "Raspberry Pi OSにROS2(Jazzy:「Testing and Tutorial Party」版)をインストールする"
 emoji: "😸"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ros", "ros2", "raspberrypi"]
