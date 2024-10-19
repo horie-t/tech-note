@@ -28,6 +28,7 @@ published: false
 
 ### その他専門書
 
+* [ChatGPT翻訳術](https://amzn.to/4h4hSFE): (読了)
 
 ### 小説等の一般書
 
