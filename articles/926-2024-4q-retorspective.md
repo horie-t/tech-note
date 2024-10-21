@@ -10,17 +10,23 @@ published: false
 ## 主にやっていた事
 
 * **10月:** 
+    * [関数型ドメインモデリング](https://amzn.to/3BRjrqq)の内容をJavaで実装する。
+    * [ANTLR](https://www.antlr.org/)でSQLのWhere句の式をパースする。パーサコンビネータやパーサジェネレータの調査をする。
 * **11月:** 
 * **12月:** 
 
 ## 勉強したプログラミング言語・ライブラリ等
 
+* [ANTLR](https://www.antlr.org/): Javaで書かれたパーサジェネレータ
 
 ## 読書
 
 ### コンピュータ技術書
 
 * [脳に収まるコードの書き方](https://amzn.to/4cPSxN6): (第14, 15, 16章; 読了)
+* [すごいHaskellたのしく学ぼう！](https://amzn.to/40eTVpo): (モナド関連を拾い読み; 読了)
+* [ふつうのコンパイラをつくろう](https://amzn.to/4dRr9xX): (第1, 2, 3, 4, 5, 6, 7章)
+* [The Definitive ANTLR 4 Reference](https://amzn.to/40a8F8V): (Chapter 1, 2)
 
 ### 数学・科学系専門書
 
