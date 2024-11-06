@@ -1,9 +1,9 @@
 ---
-title: "ANTLR4のインストールとセットアップ　〜四則演算のパーサーを作成する〜"
+title: "ANTLR4のインストールとセットアップ　〜ANTLR入門 その1〜"
 emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["antlr", "java", "compiler"]
-published: false
+published: true
 ---
 
 ## ANTLRとは？
