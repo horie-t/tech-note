@@ -49,7 +49,7 @@ published: false
   悪くはなかったけど、得たものが少なかったかなあ。
 * [すごいHaskellたのしく学ぼう！](https://amzn.to/40eTVpo): (モナド関連を拾い読み; 読了)
   [関数型ドメインモデリング](https://amzn.to/3Y3t12c)でモナドについて少し触れていたのでモナドの復習になった。
-* [The Definitive ANTLR 4 Reference](https://amzn.to/40a8F8V): (Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+* [The Definitive ANTLR 4 Reference](https://amzn.to/40a8F8V): (Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; 残りはリファレンスなので、読了とする)
   Webアプリでパーサが必要になるようなオプションを設計できないかと考えANTLRを使おうとして勉強するため。
 * [ふつうのコンパイラをつくろう](https://amzn.to/4dRr9xX): (第1, 2, 3, 4, 5, 6, 7章)
   ANTLRに辿り着く前にパーサの復習をしようと思って読み始めた。
