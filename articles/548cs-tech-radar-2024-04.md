@@ -3,7 +3,7 @@ title: "Technology Radar 2024年10月版を読む"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["technologyradar"]
-published: false
+published: true
 ---
 
 [Technology Radar](https://www.thoughtworks.com/radar)の[Apr. 2024](https://www.thoughtworks.com/content/dam/thoughtworks/documents/radar/2024/04/tr_technology_radar_vol_30_en1.pdf)を読んだので、気になった項目をまとめて、感想を記録しておく。多くは、LLMを始めとした生成AI関連だった。
