@@ -1,5 +1,5 @@
 ---
-title: "Technology Radar 2024年10月版を読む"
+title: "Technology Radar 2024年04月版を読む"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["technologyradar"]
