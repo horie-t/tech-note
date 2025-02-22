@@ -3,7 +3,7 @@ title: "Technology Radar vol.28(2023年04月版)を読む"
 emoji: "🙆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["technologyradar"]
-published: false
+published: true
 ---
 
 [Technology Radar](https://www.thoughtworks.com/radar)の[Apr. 2023](https://www.thoughtworks.com/content/dam/thoughtworks/documents/radar/2023/04/tr_technology_radar_vol_28_en.pdf)を読んだので、気になった項目をまとめて、感想を記録しておく。
