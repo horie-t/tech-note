@@ -3,7 +3,7 @@ title: "2025年3月の振り返り"
 emoji: "🔥"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["振り返り", "ポエム"]
-published: false
+published: true
 ---
 2024年も3ヶ月が過ぎたので、ここで振り返ってみる。
 
@@ -15,7 +15,7 @@ published: false
 * **2月:** [OmniMouse](https://github.com/horie-t/omni-mouse)の開発。[Technology Radar](https://www.thoughtworks.com/radar)を過去に遡って読む。  
   PythonのActorモデルのライブラリである[Ray](https://www.ray.io/)を触り始める。Akkaや、そのオープンソースのフォークである[Apache Pekko](https://pekko.apache.org/)やRubyの[Ractor](https://docs.ruby-lang.org/en/3.4/ractor_md.html)と違って、簡単に使い始められるのが良い。
 * **3月:** [OmniMouse](https://github.com/horie-t/omni-mouse)の開発。[Technology Radar](https://www.thoughtworks.com/radar)を過去に遡って読む。  
-  月の初めに体調を崩してしまい開発が停滞気味。原書を読んでいる途中に和訳が発行されてしまってショックだった。
+  月の初めに体調を崩してしまい開発が停滞気味。洋書([Build a Large Language Model (From Scratch)])を読んでいる途中に和訳([つくりながら学ぶ！LLM 自作入門](https://amzn.to/4bNxziw))が発行されてしまってショックだった。
 
 ## 勉強したプログラミング言語・ライブラリ等
 
