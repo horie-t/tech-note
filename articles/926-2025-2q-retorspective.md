@@ -11,12 +11,13 @@ published: false
 ## 主にやっていた事
 
 * **4月**: [OmniMouse](https://github.com/horie-t/omni-mouse)の開発。カメラの校正関係を実装。Zennの記事もいくつか([*1](https://zenn.dev/thorie/articles/548emb-rpi-5-camera_lens_shading_calibration), [*2](https://zenn.dev/thorie/articles/548emb-rpi-5-calib-fisheye-image), [*3](https://zenn.dev/thorie/articles/548emb-rpi-5-venv-system-site-package))書けたので良かった。Pythonの仮想環境についての理解ができたのも収穫だった。
-* **5月**:
+* **5月**: ゴールデン・ウィークは[Kubernetes](https://kubernetes.io/)の勉強。
 * **6月**:
 
 
 ## 勉強したプログラミング言語・ライブラリ等
 
+* [Kubernetes](https://kubernetes.io/)
 
 ## 読書
 
@@ -28,7 +29,7 @@ published: false
   機械学習には興味があるが実際に使うとなるとアノテーションとかしている時間は取れないと思って、勉強だけで終わってしまうのを止めたいので読む。
 * [マルチテナントSaaSアーキテクチャの構築](https://amzn.to/4ietwOt): (第4, 5, 6章)  
   6章まで要件とアーキテクチャの分類が延々と続く…
-* [Kubernetes完全ガイド 第2版](https://amzn.to/3O0zcyS): (第1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11章)  
+* [Kubernetes完全ガイド 第2版](https://amzn.to/3O0zcyS): (第1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20章)  
   一度読んだけれど、EKS上で動かしながら読んでみる。EKSだとPersistentVolume関連が全く違うので難しい。
 
 ### 数学・科学系専門書
