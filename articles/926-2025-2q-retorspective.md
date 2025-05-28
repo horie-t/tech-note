@@ -11,30 +11,34 @@ published: false
 ## 主にやっていた事
 
 * **4月**: [OmniMouse](https://github.com/horie-t/omni-mouse)の開発。カメラの校正関係を実装。Zennの記事もいくつか([*1](https://zenn.dev/thorie/articles/548emb-rpi-5-camera_lens_shading_calibration), [*2](https://zenn.dev/thorie/articles/548emb-rpi-5-calib-fisheye-image), [*3](https://zenn.dev/thorie/articles/548emb-rpi-5-venv-system-site-package))書けたので良かった。Pythonの仮想環境についての理解ができたのも収穫だった。
-* **5月**: ゴールデン・ウィークは[Kubernetes](https://kubernetes.io/)の勉強。
+* **5月**: ゴールデン・ウィークは[Kubernetes](https://kubernetes.io/)の勉強。その後は、各種AIコーディング・エージェントを触ってみた。[*4](https://zenn.dev/thorie/scraps/d464f885571fee), [*5](https://zenn.dev/thorie/scraps/6db02729714657), [*6](https://zenn.dev/thorie/scraps/5c0c1c11e247b8)。[AWS EKS on EC2環境でArgoCDの継続的デプロイをIaC化する](https://zenn.dev/thorie/scraps/5ee2529197a47f)のに成功。会社の技術ブログにまとめておいた。
 * **6月**:
 
 
 ## 勉強したプログラミング言語・ライブラリ等
 
 * [Kubernetes](https://kubernetes.io/)
+* [ArgoCD](https://argoproj.github.io/cd/)
+* [Claude Code](https://docs.anthropic.com/ja/docs/claude-code/overview)
+* [OpenAI Codex CLI](https://github.com/openai/codex)
+* [Junie](https://www.jetbrains.com/ja-jp/junie/)
 
 ## 読書
 
 ### コンピュータ技術書
 
-* [Continuous Deployment](https://amzn.to/4lGMLlO): (Chap. 1)  
+* [Continuous Deployment](https://amzn.to/4lGMLlO): (Chap. 1, 2, 3, 4)  
   thoughtworksの[Technorogy Radarの項目](https://www.thoughtworks.com/radar/techniques/continuous-deployment)で紹介されていたので読んでいる。
 * [Human-in-the-Loop 機械学習](https://amzn.to/3YBSFdZ): (第1章)  
   機械学習には興味があるが実際に使うとなるとアノテーションとかしている時間は取れないと思って、勉強だけで終わってしまうのを止めたいので読む。
-* [マルチテナントSaaSアーキテクチャの構築](https://amzn.to/4ietwOt): (第4, 5, 6章)  
-  6章まで要件とアーキテクチャの分類が延々と続く…
-* [Kubernetes完全ガイド 第2版](https://amzn.to/3O0zcyS): (第1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20章)  
+* [マルチテナントSaaSアーキテクチャの構築](https://amzn.to/4ietwOt): (第4, 5, 6, 7, 8, 9, 10章)  
+  6章まで要件とアーキテクチャの分類が延々と続くし、繰り返しが多い。具体例に入っても、実装のコードや設定の説明が少ない。
+* [Kubernetes完全ガイド 第2版](https://amzn.to/3O0zcyS): (第1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20章; 読了)  
   一度読んだけれど、EKS上で動かしながら読んでみる。EKSだとPersistentVolume関連が全く違うので難しい。
 
 ### 数学・科学系専門書
 
-* [初学の編集者がわかるまで書き直した　基礎から鍛える量子力学](https://amzn.to/3YdEdtd): (第7章)  
+* [初学の編集者がわかるまで書き直した　基礎から鍛える量子力学](https://amzn.to/3YdEdtd): (第7, 8, 9章)  
   かなり難しくなってきたので、前に戻ったりしながら読み進めている。
 
 ### その他専門書
