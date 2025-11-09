@@ -1,5 +1,5 @@
 ---
-title: "Technology Radar 2025年4月版(Vol. 32)を読む"
+title: "Technology Radar 2025年11月版(Vol. 33)を読む"
 emoji: "🐥"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["technologyradar"]
