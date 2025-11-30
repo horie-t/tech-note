@@ -1,3 +1,3 @@
-# Zenn CLI
+# 技術情報ノート
 
-* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
+技術情報の整理を目的としたノートです。[Zenn](https://zenn.dev/thorie)で公開する事を目的に記載しているので画像のリンク等はZenn向けになっています。
