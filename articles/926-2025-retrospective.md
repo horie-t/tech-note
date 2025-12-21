@@ -3,7 +3,7 @@ title: "2025年の振り返り"
 emoji: "📑"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["振り返り", "ポエム"]
-published: false
+published: true
 ---
 
 [昨年に引き続き](https://zenn.dev/thorie/articles/926-2024-retrospective)、2025年も振り返り記事を書いてみる。
@@ -48,6 +48,12 @@ published: false
 * **10月**: 主に読書。仕事先でTech blogを執筆。
 * **11月**: 主に読書。会社の方でTech blogを執筆。『[アジャイルへの道](https://zenn.dev/thorie/books/road-to-agile)』と題してZennで本を書き始めた。Spring AIの日本語の解説記事がないので『[Spring AI入門](https://zenn.dev/thorie/books/spring-ai-for-ai-engineering)』とZennで本を書き始めた。
 * **12月**: Zennでの『[アジャイルへの道](https://zenn.dev/thorie/books/road-to-agile)』と『[Spring AI入門](https://zenn.dev/thorie/books/spring-ai-for-ai-engineering)』の執筆を続けた。
+
+## アウトプット
+
+1. 技術ブログ執筆: Zennで8本、会社の業務で6本書けた。ただ書く時期が偏ってしまった。もう少し定期的に書くようにしたい。
+
+アウトプットと呼べるようなものが技術ブログの執筆ぐらいしかなかった。来年はコードを書いて何かを創り出すようにしたい。
 
 ## 勉強した(、触ってみた、調査した)プログラミング言語・ライブラリ等
 
