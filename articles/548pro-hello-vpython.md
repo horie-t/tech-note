@@ -3,7 +3,7 @@ title: "VPythonを使ってみた"
 emoji: "💬"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Python", "VPython"]
-published: false
+published: true
 ---
 
 VPythonは、Pythonでグラフや3Dグラフィックス等の可視化をできるライブラリです。物理シミュレーションや教育目的でよく使われています。この記事では、VPythonの基本的な使い方を紹介します。
