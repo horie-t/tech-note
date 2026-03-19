@@ -6,7 +6,7 @@ topics: ["java", "raspberrypi", "pi4j"]
 published: true
 ---
 
-Javaは元々は[家電製品のマイクロコントローラ向けに開発された](https://ja.wikipedia.org/wiki/Java#%E5%AE%B6%E9%9B%BB%E5%90%91%E3%81%91%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%EF%BC%881990%E5%B9%B412%E6%9C%88%EF%BC%89)言語で、組み込みシステムの分野でも広く使われています。今回は、Raspberry Piを使ってJavaでLチカをやってみました。周辺機器の制御には、Pi4JというJavaのライブラリを使用しました。
+Javaは元々は[家電製品のマイクロコントローラ向けに開発された](https://ja.wikipedia.org/wiki/Java#%E5%AE%B6%E9%9B%BB%E5%90%91%E3%81%91%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%EF%BC%881990%E5%B9%B412%E6%9C%88%EF%BC%89)言語で、組み込みシステムの分野でも広く使われています。今回は、Raspberry Piを使ってJavaでLチカをやってみました。周辺機器の制御には、[Pi4J](https://www.pi4j.com/)というJavaのライブラリを使用しました。
 
 ## LEDの接続
 
