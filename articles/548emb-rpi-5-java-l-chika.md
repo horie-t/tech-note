@@ -1,5 +1,5 @@
 ---
-title: "JavaでLチカをやってみた"
+title: "JavaでRaspberry Pi上でLチカをやってみた"
 emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["java", "raspberrypi", "pi4j"]
@@ -133,28 +133,34 @@ import com.pi4j.Pi4J;
 import com.pi4j.io.gpio.digital.DigitalState;
 
 public class App {
-    private static final int PIN_LED = 25;
+    private static final int PIN_LED = 25;  // *1
 
     public static void main( String[] args ) {
-        var pi4j = Pi4J.newAutoContext();
+        var pi4j = Pi4J.newAutoContext();   // *2
 
-        try (var led = pi4j.digitalOutput().create(PIN_LED);){
+        try (var led = pi4j.digitalOutput().create(PIN_LED);){  // *3
             for (int i = 0; i < 10; i++) {
-                if (led.state() == DigitalState.HIGH) {
+                if (led.state() == DigitalState.HIGH) {         // *4
                     led.low();
                 } else {
                     led.high();
                 }
-                    Thread.sleep(500);
+                Thread.sleep(500);
             }
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
-        pi4j.shutdown();
+        pi4j.shutdown();   // *5
     }
 }
 ```
+
+*1: GPIO25番ピンを使用するための定数
+*2: Pi4J拡張機能を読み込みます。これにより、Raspberry PiのGPIOを制御できるようになります。
+*3: GPIO25番ピンを出力として使用するための設定です。try-with-resources構文を使用して、リソースの自動クリーンアップを行います。
+*4: LEDの状態を切り替えるための条件分岐です。現在の状態がHIGH（点灯）であればLOW（消灯）に、そうでなければHIGH（点灯）に切り替えます。
+*5: Pi4Jのリソースを解放します。これにより、GPIOの使用が終了します。バックグラウンドのスレッドやプロセスも停止されます。
 
 ## ビルドと実行
 

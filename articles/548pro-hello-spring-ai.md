@@ -103,4 +103,4 @@ shell:>
 
 ## もっと知りたい方へ
 
-Spring AIをWebアプリケーションにしたり、MCPを実装して利用したりする方法については『[Spring AI入門](https://zenn.dev/thorie/books/spring-ai-for-ai-engineering)』を参照してください。
+Spring AIをWebアプリケーションにしたり、MCPを実装して利用したりする方法については『[Spring AI入門](https://amzn.asia/d/0eAmDt2W)』を参照してください。

@@ -72,4 +72,4 @@ npm run dev
 
 ![](/images/hello-assistant-ui.png)
 
-以上で、assistant-uiを使ったチャットアプリケーションの構築と起動が完了しました。独自のバックエンドと組み合わせる等の応用については『[Spring AI入門](https://zenn.dev/thorie/books/spring-ai-for-ai-engineering)』を参照してください。
+以上で、assistant-uiを使ったチャットアプリケーションの構築と起動が完了しました。独自のバックエンドと組み合わせる等の応用については『[Spring AI入門](https://amzn.asia/d/0eAmDt2W)』を参照してください。
