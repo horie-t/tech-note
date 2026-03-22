@@ -1,5 +1,5 @@
 ---
-title: "JavaでRaspberry Pi上でLチカをやってみた"
+title: "Pi4Jを使ってRaspberry Pi上でLチカをJava言語でやってみた"
 emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["java", "raspberrypi", "pi4j"]
