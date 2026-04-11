@@ -22,7 +22,7 @@ published: false
 
 ### 数学・科学系専門書
 
-* [みんなの圏論 ―演習中心アプローチ―](https://www.kyoritsu-pub.co.jp/book/b10003365.html): (第2, 3章)  
+* [みんなの圏論 ―演習中心アプローチ―](https://www.kyoritsu-pub.co.jp/book/b10003365.html): (第2, 3, 4章)  
   色々と読む本が迷走していたが、これを腰を据えて読んでみることにした。
 
 ### その他専門書
