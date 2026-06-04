@@ -5,7 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["関数型ドメインモデリング", "java", "vavr", "springboot"]
 published: true
 ---
-(注意: 本記事の記述及び、移植したコードはAIによる生成物です。人による作業は、採用する技術スタック、アーキテクチャの選定、及びレビューのみを行っています。)
+注意: 本記事の記述及び、移植したコードはAIによる生成物です。人による作業は、採用する技術スタック、アーキテクチャの選定、及びレビューのみを行っています。AIへの指示(プロンプト)は記事の末尾を参照してください。このような指示のみで、F# のコードを Java に移植できることを示すのが本記事の目的です。
 
 ## はじめに
 
@@ -290,3 +290,39 @@ $ curl -X POST http://localhost:8080/orders -H "Content-Type: application/json" 
 - 逆に言えば、**ドメインのコアロジックは F# の「形」をかなり忠実に Java へ写せる**。型で不正な状態を排除する設計思想は、言語を越えて持ち込める。
 
 関数型のエッセンスは特定の言語の専売特許ではなく、`record` と `sealed` を備えた現代の Java でも十分実践できる、というのが今回の手応えでした。
+
+## 参考: AI へのプロンプト
+
+1. Vavr を使えるようにしてください。
+2. ./DomainModelingMadeFunctional/src/OrderTaking ディレクトリのファイルの構成について解説してください。
+3. このプロジェクトを Java + Spring Boot で再実装したいのですが、どこの部分から再実装するのが良いですか?
+4. まずはこのロードマップを docs ディレクトリに markdown 形式で書き出してください。進捗状況が分かるようにチェックボックスを付けて書いてください。
+5. Phase 1 の String50 から始めて
+6. EmailAddress に進んで
+7.（ZipCode について）はい、お願いします。
+8.（OrderId について）はい、お願いします。
+9.（OrderLineId について）はい、お願いします。
+10.（重複の共通化の選択肢提示に対して)2. でお願いします。（= ConstrainedType ヘルパを抽出する）
+11. ここまでをコミット & push してください。
+12.（SSH push 失敗を受けて)SSH agent を使えるようにする方法を教えてください。
+13. ~/.bashrc に書き加えてください。
+14. createLike (regex ヘルパ) も ConstrainedType に足して、EmailAddress/ZipCode も一緒にリファクタしてください。
+15.（WidgetCode / GizmoCode / ProductCode について)はい、お願いします。
+16. はい、続けてください。（= UnitQuantity / KilogramQuantity / OrderQuantity / Price / BillingAmount、および createInt / createDecimalの追加）
+17. はい、コミット & push をお願いします。
+18. Phase 2 (PersonalName / CustomerInfo / Address) に進んでください。
+19.（Phase 3 について)はい、お願いします。
+20. 一旦コミット & push してください。
+21. Phase 4 の各項目はどのような順序で実装しますか?
+22. この順序で良いです。まず、Slice 1 を実装してください。
+23. はい、お願いします。（= Slice 1 のコミット & push、その後 Slice 2 へ)
+24. Slice 2 をお願いします。
+25. そのまま Slice 3 (AcknowledgeOrder) に進みます。
+26. はい、お願いします。（= Slice 4 CreateEvents）
+27. コミットしてから進みます。
+28.（Slice 5 / Phase 4 完了のコミット & push について)はい、コミット & push をお願いします。
+29. Phase 5 に進みます。Phase 4 の時と同様にどのように実装を進めていくのが良いか考えてください。
+30. Slice 2 まで実装してまとめてコミットします。
+31. Phase 6 に進んでください。
+32. Phase 7 の README の整備 (起動方法、サンプル curl) のみ実施してください。残りの 2 つは実施しません。
+33. 本移植について、/path/to/articles/548pro-domain-modeling-made-func-in-j.md に技術ブログとして紹介する内容を書いてください。
