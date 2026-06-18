@@ -25,7 +25,7 @@ published: false
 
 ### コンピュータ技術書
 
-* [Effective Java 第3版](https://www.maruzen-publishing.co.jp/book/b10120153.html): (第1, 2章)  
+* [Effective Java 第3版](https://www.maruzen-publishing.co.jp/book/b10120153.html): (第1, 2, 3章)  
   今頃? と思われるかもしれないが、今頃読んでいる。Javaは長年使っているが、Effective Javaは読んだことがなかったので。
 * [アーキテクチャモダナイゼーション 組織とビジネスの未来を設計する](https://amzn.asia/d/0hox0Nlb): (第1, 2, 3, 4, 5, 6, 7, 8章)  
   ソフトウェアのアーキテクチャを改善するための方法論の本ではあるが、組織の構造やビジネスの構造を改善も一緒に考える必要があることを説いている。アーキテクチャの改善は、組織の構造やビジネスの構造の改善とセットで考える必要があることを改めて認識させられた。
