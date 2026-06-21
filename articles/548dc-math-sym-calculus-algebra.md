@@ -3,7 +3,7 @@ title: "線形代数学、微分積分学で使われる記号の読み方とTeX
 emoji: "🐥"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["tex", "線形代数学", "微分積分学"]
-published: false
+published: true
 ---
 
 線形代数学や微分積分学で使われる記号の読み方とTeXでの表記をまとめました。
